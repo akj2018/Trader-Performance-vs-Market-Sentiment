@@ -7,13 +7,14 @@ Analyze how market sentiment (Fear/Greed) relates to trader behavior and perform
 1. Clone the repository and create a new virtual environment.
 2. Activate their new environment.
 3. Install the required dependencies using the command:
-   bash'''
-   pip install -r requirements.txt
-   '''
+   
+```bash
+pip install -r requirements.txt
+```
 
 ## Summary
 
-#### Methodology
+### Methodology
 
 I combined two datasets:
 
@@ -32,7 +33,7 @@ From the merged dataset, I calculated:
 - Total capital deployed per sentiment
 - Long/Short bias (using only Open Long and Open Short trades)
 
-#### Key Insights
+### Key Insights
 
 Traders behave differently depending on market sentiment.
 
@@ -48,7 +49,7 @@ Traders behave differently depending on market sentiment.
 
 Overall, trader participation, sizing, and directional bias all change depending on sentiment.
 
-#### Strategy Recommendations
+### Strategy Recommendations
 
 - Increase exposure selectively during Fear regimes since traders show strong conviction and relatively controlled drawdowns.
 
